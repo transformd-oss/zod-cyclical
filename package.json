@@ -22,7 +22,6 @@
     "docs": "./scripts/docs.sh"
   },
   "dependencies": {
-    "esresult": "^3.2.0",
     "zod": "^3.14.4"
   },
   "devDependencies": {

@@ -2436,11 +2436,6 @@ esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
-esresult@^3.2.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/esresult/-/esresult-3.5.0.tgz#3e0842f80e8cb380426a0ce092d2f4ead5754fdc"
-  integrity sha512-++PGcITAu7tFXbs52mdQyU7J3btIWULZZTn7UnS3qieQWW1c7DEahAeOB2AK258NLQagTkEu2IgBrxSI8QvVFA==
-
 estraverse@^4.1.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
