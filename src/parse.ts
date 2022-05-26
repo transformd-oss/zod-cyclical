@@ -164,7 +164,9 @@ function toPartialSchema(
     next = toPartialSchema(schema.schema, ctx);
   } else if (schema instanceof ZodUnion) {
     next = z.union([
-      ...schema.options.map((option) => toPartialSchema(option, ctx)),
+      ...schema.options.map((option: ZodTypeAny) =>
+        toPartialSchema(option, ctx)
+      ),
       Placeholder,
     ] as unknown as [ZodTypeAny, ZodTypeAny, ...ZodTypeAny[]]);
   } else {
